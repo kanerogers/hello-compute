@@ -1,0 +1,13 @@
+[package]
+name = "hello-compute"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+ash = "0.38.0"
+env_logger = "0.11.5"
+gpu-allocator = "0.27.0"
+log = "0.4.22"
+presser = "0.3.1"
+vk-shader-macros = "0.2.10"
